@@ -1,24 +1,22 @@
 # README
+- 個人開発
+アプリ名：　簡易SNS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+概要：　思ったことをつぶやけるtwitterのようなアプリケーションです。主要機能は以下の3つです．
+・投稿機能 (いいねをできる機能も追加)
+・ユーザー参照機能　（ユーザー別の投稿や、そのユーザーがいいねをした投稿の表示）
+・ログイン機能（ログインしていない場合は閲覧できない）
 
-Things you may want to cover:
 
-* Ruby version
+開発背景：　自分自身で作れるWEBサービスを実装してみたいと考えたため。
 
-* System dependencies
+開発期間：　1カ月
+開発人数：　１人
+使用技術：　Ruby on Rails, heroku
 
-* Configuration
+こだわりポイント:　安全面を考慮し、パスワードをハッシュ化してデータベースに保存しました。
 
-* Database creation
+URL：　https://warm-shelf-25760.herokuapp.com/
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+今後について：　実際にそのメールアドレスが正しいのかを認証するような機能を実装していきたいです。
